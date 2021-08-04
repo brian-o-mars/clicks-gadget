@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --primary-color: #d61d1d;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background-color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #776969;
+  font-size: 1.2em;
+  padding-top: .7em;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
+.navbar nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: none;
+  position: unset;
+  padding: 0;
+}
+
+.navbar nav li {
+  display: inline;
+  list-style: none;
+  width: 100%;
+}
+
+.navbar nav a {
+  color: black;
+  font-size: 1em;
+  padding: .1em 1em;
+  text-decoration: none;
+}
+
+.navbar nav a:hover {
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+main {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .banner {
+  border: 1px solid var(--primary-color);
+  border-radius: 3%;
+}
+
+.hero .small-txt {
+  font-size: medium;
+  color: var(--primary-color);
+}
+
+.hero .prod-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.hero .prod-link:hover {
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+.Home-images {
+  background: #f2f2f2;
+}
+
+.Home-images li {
+  text-align: center;
+  padding: 2em, 1em;
+  width: 100%;
+  margin: 2em auto 2em auto;
+  border-radius: 1em;
+  list-style: none;
+}
+
+.Home-images li img {
+  width: 15em;
+  height: 15em;
+  border: 2px solid var(--primary-color);
+  border-radius: 5%;
+}
+
+footer .footnote {
+  font-weight: bold;
+  font-size: small;
+}
+
+.container {
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+input, textarea {
+  border: 1px solid #c9c0c0;
+}
+
+.send-message {
+  background: var(--primary-color);
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  border-radius: 5em;
+  padding: 1em;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+.send-message:hover {
+  color: var(--primary-color);
+  background: white;
+  border: 3px solid var(--primary-color);
+}
+
+.ig-page {
+  padding-bottom: 5em;
+}
+
+.ig-page a {
+  text-decoration: none;
+  color: #363131;
+}
+
+.ig-page a:hover {
+  color: var(--primary-color);
+}
+
+.ig-page img {
+  padding-left: .3em;
+}
+
+.about-article {
+  padding-top: 2em;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=main.css.map */

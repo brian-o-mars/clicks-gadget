@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --primary-color: #d61d1d;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background-color: white;
+  padding: 1em;
+  text-align: center;
+
+  .logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(119, 105, 105);
+    font-size: 1.2em;
+    padding-top: .7em;
+    
+
+
+    span {
+      color: var(--primary-color);
+    }
+  }
+
+  nav {
+
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    padding: 0;
+
+
+    li {
+      display: inline;
+      list-style: none;
+      width: 100%;
+    }
+
+    a {
+      color: black;
+      font-size: 1em;
+      padding: .1em 1em;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--primary-color);
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+main {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+
+  .banner {
+    border: 1px solid var(--primary-color);
+    border-radius: 3%;
+  }
+
+  .small-txt {
+    font-size: medium;
+    color: var(--primary-color);
+  }
+  .prod-link {
+    text-decoration: none;
+    color: var(--primary-color);
+
+    &:hover {
+      color: var(--primary-color);
+      font-weight: bolder;
+    }
+  }
+}
+
+.Home-images {
+  background: #f2f2f2;
+
+    li {
+      text-align: center;
+      padding: 2em, 1em;
+      width: 100%;
+      margin: 2em auto 2em auto;
+      border-radius: 1em;
+      list-style: none;
+
+      img {
+        width: 15em;
+        height: 15em;
+        border: 2px solid var(--primary-color);
+        border-radius: 5%;
+      }
+    }
+}
+
+
+footer {
+  .footnote {
+    font-weight: bold;
+    font-size: small;
+  }
+}
+
+//Contacts page styling
+
+.container {
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+input, textarea{
+  border: 1px solid #c9c0c0;
+}
+
+.send-message {
+  background: var(--primary-color);
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  border-radius: 5em;
+  padding: 1em;
+  cursor: pointer;
+  margin-bottom: 2em;
+
+  &:hover {
+    color: var(--primary-color);
+    background: white;
+    border: 3px solid var(--primary-color);
+  }
+
+}
+
+.ig-page {
+  padding-bottom: 5em;
+  a {
+    text-decoration: none;
+    color: rgb(54, 49, 49);
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+
+  img {
+    padding-left: .3em;
+
+  }
+}
+
+// about page styling
+
+.about-article {
+  padding-top: 2em;
+  font-weight: lighter;
+}
